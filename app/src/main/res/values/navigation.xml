@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--
+	This is a configuration file for navigation menu. You can add/remove/modify menu items as you need.
+	Important: each of these 4 arrays below must contain the same number of items.
+	-->
+
+	<!-- List of titles in navigation drawer menu -->
+	<string-array name="navigation_title_list">
+		<item>الرئيسية</item>
+		<item>فيديوهات</item>
+		<item>فيزياء</item>
+		<item>تكنولوجيا</item>
+		<item>علم الأحياء</item>
+		<item>البيئة</item>
+	</string-array>
+
+	<!--
+	List of webview URLs. You can specify URL link to a web page on the Internet or
+	URL link to a local page stored in assets directory. Local page does not require Internet connection.
+	URL to the local page must be in this format: file:///android_asset/example.html
+	-->
+	<string-array name="navigation_url_list">
+		<item>http://www.arscimag.net</item>
+		<item>https://www.youtube.com/channel/UCHUUT7yqSFUsaed16unMiqg</item>
+		<item>http://www.arscimag.net/category/physics/</item>
+		<item>http://www.arscimag.net/category/technology/</item>
+		<item>http://www.arscimag.net/category/biology/</item>
+		<item>http://www.arscimag.net/category/nature/</item>
+	</string-array>
+
+	<!-- List of icons in navigation drawer menu -->
+	<string-array name="navigation_icon_list">
+		<item>@drawable/ic_drawer_home</item>
+		<item>@drawable/ic_drawer_products</item>
+		<item>@drawable/ic_drawer_references</item>
+		<item></item>
+		<item></item>
+		<item></item>
+	</string-array>
+
+	<!--
+	List of share messages. Each webview page can be shared via e-mail, sms, social networks etc.
+	Share button is in the action bar. You can specify a message which gonna be posted.
+	If you don't want to share the page, keep the item empty.
+	-->
+	<string-array name="navigation_share_list">
+		<item>شاهد هذا الرابط: http://arscimag.net</item>
+		<item>شاهد هذا الرابط: https://www.youtube.com/channel/UCHUUT7yqSFUsaed16unMiqg</item>
+		<item>شاهد هذا الرابط: http://arscimag.net/category/physics/</item>
+		<item>شاهد هذا الرابط: http://arscimag.net/category/technology/</item>
+		<item>شاهد هذا الرابط: http://arscimag.net/category/biology/</item>
+		<item>شاهد هذا الرابط: http://arscimag.net/category/nature/</item>
+	</string-array>
+</resources>

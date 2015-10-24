@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- LANGUAGE INDEPENDENT -->
+	<string name="app_name">مجلة العلوم العربية</string>
+
+	<!-- LANGUAGE DEPENDENT -->
+	<string name="global_offline_toast">لا يوجد إتصال بالإنترنت</string>
+
+	<string name="menu_share">شارك</string>
+
+	<string name="drawer_open">إفتح شريط التصفح</string>
+	<string name="drawer_close">أغلق شريط التصفح</string>
+
+	<string name="placeholder_empty">لا يوجد</string>
+	<string name="placeholder_offline">لا يوجد إتصال بالإنترنت</string>
+
+	<string name="fragment_main_downloading">جاري التحميل...</string>
+</resources>
